@@ -1,0 +1,688 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"input",
+				"inputPath"
+			],
+			[
+				"wh",
+				"whitespaceTest"
+			],
+			[
+				"sen",
+				"sentence"
+			],
+			[
+				"tra",
+				"transformed"
+			],
+			[
+				"tr",
+				"transformedWords"
+			],
+			[
+				"tran",
+				"transformedSentences"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"top5",
+				"top5Sorted"
+			],
+			[
+				"wow",
+				"wowPetInfoBuilder"
+			],
+			[
+				"api",
+				"apiPets"
+			],
+			[
+				"cur",
+				"currPetIndex"
+			],
+			[
+				"no",
+				"normalizeStatsByLevel"
+			],
+			[
+				"wo",
+				"wowPetInfoBuilder"
+			],
+			[
+				"printTe",
+				"printTeamSummary"
+			],
+			[
+				"over",
+				"overallBest"
+			],
+			[
+				"p2013",
+				"P2013"
+			],
+			[
+				"on",
+				"onSocketConnectSuccess"
+			],
+			[
+				"con",
+				"contructor"
+			],
+			[
+				"un",
+				"unlinkSync"
+			],
+			[
+				"p",
+				"porfolio-2013"
+			],
+			[
+				"createpet",
+				"CreatePetTeamNames"
+			],
+			[
+				"Get",
+				"GetWidth"
+			],
+			[
+				"cac",
+				"cachedTimers"
+			],
+			[
+				"Ch",
+				"CheckForCachedTimer"
+			],
+			[
+				"Ceck",
+				"CheckForCachedTimer"
+			],
+			[
+				"Ma",
+				"REZTRACK_MAX_FRAMES"
+			],
+			[
+				"Rez",
+				"RezTrack"
+			],
+			[
+				"REZ",
+				"REZTRACK_REZ_ABLE_En"
+			],
+			[
+				"To",
+				"ToggleResize"
+			],
+			[
+				"Up",
+				"UpdateUI"
+			],
+			[
+				"Po",
+				"POSITION"
+			],
+			[
+				"RezTrack",
+				"RezTrack_Settings"
+			],
+			[
+				"RE",
+				"REZTRACK_DEFAULT_WIDTH"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "sample/sample_one.js",
+			"settings":
+			{
+				"buffer_size": 6236,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "sample/sample_two.js",
+			"settings":
+			{
+				"buffer_size": 117,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/garble.py",
+			"settings":
+			{
+				"buffer_size": 6091,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "(\"\\x76\"+((!!+[]+\"\")[+!![]])+((!+[]+\"\")[+!![]]))+' '+((!+[]+\"\")[(+!![])+(+!![])])+((!!+[]+\"\")[(+!![])+(+!![])+(+!![])])+((!!+[]+\"\")[(+!![])+(+!![])+(+!![])+(+!![])])+((!+[]+\"\")[+!![]])+((!!+[]+\"\")[(+!![])+(+!![])+(+!![])])+\"\\x4C\"+((+!![]/+[]+\"\")[(+!![])+(+!![])+(+!![])])+((!!+[]+\"\")[(+!![])+(+!![])+(+!![])])+((!+[]+\"\")[+[]])+'='+'['+']'+';'+(\"\\x76\"+((!!+[]+\"\")[+!![]])+((!+[]+\"\")[+!![]]))+' '+\"\\x6B\"+((!!+[]+\"\")[(+!![])+(+!![])+(+!![])+(+!![])])+((+!![]/+[]+\"\")[(+!![])+(+!![])+(+!![])+(+!![])+(+!![])+(+!![])+(+!![])])+((!!+[]+\"\")[(+!![])+(+!![])+(+!![])])+\"\\x4C\"+((+!![]/+[]+\"\")[(+!![])+(+!![])+(+!![])])+((!!+[]+\"\")[(+!![])+(+!![])+(+!![])])+((!+[]+\"\")[+[]])+'='+'['+']'+';'+(\"\\x76\"+((!!+[]+\"\")[+!![]])+((!+[]+\"\")[+!![]]))+' '+((!+[]+\"\")[(+!![])+(+!![])])+((!!+[]+\"\")[(+!![])+(+!![])+(+!![])])+((!!+[]+\"\")[(+!![])+(+!![])+(+!![])+(+!![])])+((!+[]+\"\")[+!![]])+((+!![]/+[]+\"\")[+[]])+((+!![]/+[]+\"\")[+!![]])+((({})[\"\"]+\"\")[(+!![])+(+!![])])+((!!+[]+\"\")[(+!![])+(+!![])+(+!![])+(+!![])])+'x'+'='+(+[])+';'+(\"\\x76\"+((!!+[]+\"\")[+!![]])+((!+[]+\"\")[+!![]]))+' '+\"\\x70\"+\"\\x77\"+((+!![]/+[]+\"\")[+[]])+((+!![]/+[]+\"\")[+!![]])+((({})[\"\"]+\"\")[(+!![])+(+!![])])+((!!+[]+\"\")[(+!![])+(+!![])+(+!![])+(+!![])])+'x'+'='+(+[])+';'+(((!!+[]+\"\")[+[]])+((!+[]+\"\")[(+!![])+(+!![])])+((+!![]/+[]+\"\")[+!![]])+((({})+\"\")[(+!![])+(+!![])+(+!![])+(+!![])+(+!![])])+((!+[]+\"\")[+[]])+((+!![]/+[]+\"\")[(+!![])+(+!![])+(+!![])])+((({})+\"\")[+!![]])+((+!![]/+[]+\"\")[+!![]]))+' '+((!!+[]+\"\")[(+!![])+(+!![])])+((({})+\"\")[+!![]])+((!!+[]+\"\")[+!![]])+((({})[\"\"]+\"\")[(+!![])+(+!![])])+\"\\x55\"+((!!+[]+\"\")[(+!![])+(+!![])+(+!![])])+((!!+[]+\"\")[(+!![])+(+!![])+(+!![])+(+!![])])+((!+[]+\"\")[+!![]])+((!!+[]+\"\")[(+!![])+(+!![])+(+!![])])+'('+')'+';'+'{'+'}'",
+			"file": "sample/garbled/sample_two.js",
+			"file_size": 1722,
+			"file_write_time": 130045976042117112,
+			"settings":
+			{
+				"buffer_size": 1716,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "\"var usersList=[];var keysList=[];var userIndex=0;var pwIndex=0;function loadUsers();{}\"",
+			"settings":
+			{
+				"buffer_size": 88,
+				"line_ending": "Windows",
+				"name": "\"var usersList=[];var keysList=[];var userIndex=0;"
+			}
+		}
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"command_palette":
+	{
+		"height": 81.0,
+		"selected_items":
+		[
+			[
+				"form",
+				"Format: Javascript"
+			],
+			[
+				"set syntax: java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"set syntax: p",
+				"Set Syntax: Python"
+			],
+			[
+				"for",
+				"Format: Javascript"
+			],
+			[
+				"set syntax: jav",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"set",
+				"Set Syntax: JSON"
+			],
+			[
+				"f",
+				"Format: Javascript"
+			],
+			[
+				"fo",
+				"Format: Javascript"
+			],
+			[
+				"package in",
+				"Package Control: Install Package"
+			],
+			[
+				"j",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 416.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/attackrabbit/Documents/workspace_aptana/BruteForce/js/main.js",
+		"/C/Users/attackrabbit/Documents/workspace_aptana/lime/src/covernode.js",
+		"/C/Users/attackrabbit/Documents/workspace_aptana/lime/src/useragent.js",
+		"/C/Users/attackrabbit/Documents/workspace_aptana/garble/sample/garbled/sample.js",
+		"/C/Users/attackrabbit/Documents/workspace_aptana/garble/sample/sample.js",
+		"/C/Users/attackrabbit/Documents/workspace_aptana/Dreamvis/js/main.js",
+		"/C/Users/attackrabbit/Documents/workspace_aptana/garble/hackz",
+		"/C/Users/attackrabbit/Documents/workspace_aptana/grunts/src/main/grunts.js",
+		"/C/Users/attackrabbit/Documents/workspace_aptana/garble/garble.sublime-project",
+		"/C/Users/attackrabbit/Documents/workspace_aptana/garble/garble.sublime-workspace",
+		"/C/Users/attackrabbit/Documents/workspace_aptana/garble/Cakefile",
+		"/C/Users/attackrabbit/Documents/workspace_aptana/garble/src/garble.coffee",
+		"/C/Users/attackrabbit/Documents/workspace_aptana/garble/index.html",
+		"/C/Users/attackrabbit/Documents/workspace_aptana/LOL Comparison/lib/underscore.js",
+		"/C/Program Files (x86)/nginx-1.2.3/conf/nginx.conf",
+		"/C/Users/attackrabbit/Documents/workspace_aptana/Portfolio-2013/Cakefile",
+		"/C/Users/attackrabbit/Documents/workspace_aptana/Portfolio-2013/index.html",
+		"/C/Users/attackrabbit/Downloads/hackz",
+		"/C/Users/attackrabbit/Documents/workspace_aptana/Portfolio-2013/css/main.css",
+		"/C/Users/attackrabbit/Documents/workspace_aptana/Portfolio-2013/src/coffee/InputView.coffee",
+		"/C/Users/attackrabbit/Documents/workspace_aptana/Portfolio-2013/src/coffee/P2013.coffee",
+		"/C/Users/attackrabbit/Documents/workspace_aptana/Portfolio-2013/src/coffee/ImageDataView.coffee",
+		"/C/Users/attackrabbit/Documents/workspace_aptana/Portfolio-2013/src/coffee/ImageServer.coffee",
+		"/C/Users/attackrabbit/Documents/workspace_aptana/Portfolio-2013/src/coffee/ImageDataCollection.coffee",
+		"/C/Users/attackrabbit/Documents/workspace_aptana/Portfolio-2013/src/coffee/InputController.coffee",
+		"/C/Users/attackrabbit/Documents/workspace_aptana/Portfolio-2013/src/coffee/ImageDataController.coffee",
+		"/C/Users/attackrabbit/Documents/workspace_aptana/Portfolio-2013/node/ImageServer.js",
+		"/C/Users/attackrabbit/AppData/Roaming/Mozilla/Firefox/Profiles/s7cftbmx.default/gm_scripts/WOW_Pet_Battle_Team_Anaylizer/WOW_Pet_Battle_Team_Anaylizer.user.js",
+		"/C/Users/attackrabbit/AppData/Roaming/Mozilla/Firefox/Profiles/s7cftbmx.default/gm_scripts/Auto_Search_Youtube/Auto_Search_Youtube.user.js",
+		"/C/Users/attackrabbit/Documents/Applications/Ubuntu BK/bitcoin-0.3.24/bitcoin.conf",
+		"/C/Users/attackrabbit/AppData/Roaming/Mozilla/Firefox/Profiles/s7cftbmx.default/gm_scripts/config.xml",
+		"/C/Users/attackrabbit/AppData/Roaming/Mozilla/Firefox/Profiles/s7cftbmx.default/gm_scripts/WOW_Pet_Battle_Team_Anaylizer.user.js",
+		"/C/Users/attackrabbit/Desktop/WOW_Pet_Team_Anaylizer/WOW_Pet_Team_Anaylizer.user.js",
+		"/C/Users/attackrabbit/AppData/Roaming/Mozilla/Firefox/Profiles/s7cftbmx.default/gm_scripts/user-script/user-script.user.js",
+		"/C/Users/attackrabbit/AppData/Roaming/Mozilla/Firefox/Profiles/s7cftbmx.default/gm_scripts/WOW_Pet_Team_Anaylizer/WOW_Pet_Team_Anaylizer.user.js",
+		"/C/Users/attackrabbit/Documents/Poetry/News Reporters Know Nothing About Burgers, Only Archeology.txt",
+		"/C/Users/attackrabbit/Documents/workspace_aptana/Portfolio-2013/lib/backbone-dev.js",
+		"/C/Users/attackrabbit/Documents/workspace_aptana/Portfolio-2013/lib/dependencies.js",
+		"/C/Users/attackrabbit/Documents/workspace_aptana/Portfolio-2013/lib/portfolio-2013.js",
+		"/C/Users/attackrabbit/Documents/workspace_aptana/Portfolio-2013/src/coffee/ImageDataModel.coffee",
+		"/C/Users/attackrabbit/Documents/workspace/www/KillBill_EffectSim/bin/pb/ComicPanel.pbj",
+		"/C/Users/attackrabbit/Documents/workspace_vs/FormProject/WindowsFormsApplication1/WindowsFormsApplication1/Program.cs",
+		"/C/Users/attackrabbit/Documents/workspace_vs/RecordingDeviceManager/RecordingDeviceManager.cs",
+		"/C/Users/attackrabbit/Documents/workspace_lua/RezTrack/src/RezTrack.lua",
+		"/C/Users/attackrabbit/Documents/workspace_fb4/CodeSound/src/labs/ay/view/ProcessViewMediator.as",
+		"/C/Users/attackrabbit/Documents/workspace_aptana/blitgin-js/src/main/coffee/RenderObject.coffee",
+		"/C/Users/attackrabbit/Documents/workspace_eclipse/Bellies/src/dev/goof/Bellies.java",
+		"/C/Users/attackrabbit/Documents/workspace_aptana/blitgin-js/src/main/coffee/Bootstrap.coffee",
+		"/C/Users/attackrabbit/Documents/workspace_aptana/Portfolio-2013/lib/underscore-1.4.3.min.js",
+		"/C/Users/attackrabbit/Documents/workspace_aptana/Portfolio-2013/lib/underscore-1.3.1.min.js",
+		"/C/Users/attackrabbit/Documents/workspace_aptana/Portfolio-2013/src/coffee/P213.coffee",
+		"/C/Users/attackrabbit/Documents/workspace_aptana/Portfolio-2013/src/coffee/ImageCollection.coffee",
+		"/C/Users/attackrabbit/Documents/workspace_aptana/Portfolio-2013/src/coffee/ImageModel.coffee",
+		"/C/Users/attackrabbit/Documents/workspace_aptana/Portfolio-2013/src/coffee/Service.coffee",
+		"/C/Users/attackrabbit/Documents/workspace_aptana/Portfolio-2013/lib/LAB.js",
+		"/C/Users/attackrabbit/Documents/workspace_aptana/Portfolio-2013/lib/porfolio-2013.js",
+		"/C/Users/attackrabbit/Documents/workspace_aptana/Portfolio-2013/dependencies.js",
+		"/C/Users/attackrabbit/Documents/workspace_aptana/Portfolio-2013/src/js/Main.js",
+		"/C/Users/attackrabbit/Documents/workspace_aptana/Portfolio-2013/src/coffee/Main2.coffee",
+		"/C/Users/attackrabbit/Documents/workspace_aptana/Portfolio-2013/src/coffee/Main.coffee",
+		"/C/Users/attackrabbit/Documents/workspace_aptana/Portfolio-2013/src/js/Main2.js",
+		"/C/Users/attackrabbit/Documents/workspace_aptana/Portfolio-2013/src/dependencies/dependencies.coffee",
+		"/C/Users/attackrabbit/Documents/workspace_aptana/Portfolio-2013/src/coffee/dependencies.coffee",
+		"/C/Users/attackrabbit/Downloads/jquery-require-sample/jquery-require-sample/webapp/app.html",
+		"/C/Users/attackrabbit/Documents/workspace_aptana/Portfolio-2013/src/coffee/depdencies.coffee",
+		"/C/Users/attackrabbit/Documents/workspace_aptana/Portfolio-2013/src/js/porfolio-2013.js",
+		"/C/Users/attackrabbit/Documents/workspace_aptana/Portfolio-2013/src/coffee/test.coffee",
+		"/C/Users/attackrabbit/AppData/Roaming/Sublime Text 2/Packages/CoffeeScript/CoffeeScript.sublime-build",
+		"/C/Users/attackrabbit/Documents/workspace_aptana/blitgin-js/src/main/coffee/Action.coffee",
+		"/C/Users/attackrabbit/Documents/workspace_aptana/Portfolio-2013/src/coffee/test2.coffee",
+		"/C/Users/attackrabbit/Documents/workspace_aptana/Portfolio-2013/src/test.coffee",
+		"/C/Users/attackrabbit/Documents/workspace_aptana/Portfolio-2013/src/dev/ayork/coffee/test.coffee",
+		"/C/Users/attackrabbit/Documents/workspace_aptana/Portfolio-2013/src/dev/ayork/test",
+		"/C/Users/attackrabbit/Documents/workspace_aptana/Portfolio-2013/lib/test.coffee",
+		"/C/Users/attackrabbit/Documents/workspace_aptana/Portfolio-2013/build.cake",
+		"/C/Users/attackrabbit/Documents/workspace_aptana/Portfolio-2013/cake",
+		"/C/Users/attackrabbit/Documents/workspace_aptana/Portfolio-2013/src/dev/ayork/coffee/cake",
+		"/C/Users/attackrabbit/AppData/Roaming/Sublime Text 2/Packages/User/Blitgin.sublime-build",
+		"/C/Users/attackrabbit/Documents/workspace_aptana/Portfolio-2013/lib/jquery-1.7.1.min.js",
+		"/C/Users/attackrabbit/Documents/workspace_aptana/Portfolio-2013/lib/json2.js",
+		"/C/Users/attackrabbit/Documents/workspace_aptana/Portfolio-2013/src/dev/ayork/main/main.js",
+		"/C/Users/attackrabbit/AppData/Roaming/Sublime Text 2/Packages/SideBarEnhancements/messages/11.13.2012.1305.0.txt",
+		"/C/Users/Public/World of Warcraft/Interface/AddOns/Atemi/Atemi.toc",
+		"/C/Users/Public/World of Warcraft/Interface/AddOns/Atemi/Atemi.lua",
+		"/C/Users/attackrabbit/Downloads/Atemi/Atemi/Atemi.lua",
+		"/C/Users/Public/World of Warcraft/Interface/AddOns/RezTrack/RezTrack.lua",
+		"/C/Users/attackrabbit/Downloads/Icicle/IcicleCore.lua",
+		"/C/Users/Public/World of Warcraft/Interface/AddOns/Icicle/IcicleCore.lua",
+		"/C/Users/attackrabbit/Documents/workspace_aptana/blitgin-js/src/main/coffee/Map.coffee",
+		"/C/Users/Public/World of Warcraft/Interface/AddOns/BattlegroundTargets/BattlegroundTargets.toc",
+		"/C/Users/Public/World of Warcraft/Interface/AddOns/Bartender4/Bartender4.toc",
+		"/C/Users/Public/World of Warcraft/Interface/AddOns/PetBattleTeams/modules/UpdateUIFunctions.lua",
+		"/C/Users/Public/World of Warcraft/Interface/AddOns/PetBattleTeams/PetBattleTeams.lua",
+		"/C/Users/Public/World of Warcraft/Interface/AddOns/PetBattleTeams/PetBattleTeamsUI.lua",
+		"/C/Users/Public/World of Warcraft/Interface/AddOns/PetBattleTeams/modules/CreateUIFunctions.lua",
+		"/C/Users/attackrabbit/Downloads/liquidmetal - Sheet 1.csv",
+		"/C/Users/attackrabbit/Downloads/octane - Sheet 1.csv",
+		"/C/Users/attackrabbit/Downloads/altnation - Sheet 1.csv",
+		"/C/Users/attackrabbit/AppData/Roaming/Mozilla/Firefox/Profiles/s7cftbmx.default/gm_scripts/jQuery_For_Chrome_(A_Cross_Browser_Example)/jQuery_For_Chrome_(A_Cross_Browser_Example).user.js",
+		"/C/Users/attackrabbit/Documents/workspace_lua/BattlegroundTargets/BattlegroundTargets.lua",
+		"/C/Users/attackrabbit/Documents/workspace_lua/RezTrack/README.md",
+		"/C/Users/attackrabbit/Documents/workspace_lua/RezTrack/src/RezTrack.toc",
+		"/C/Users/attackrabbit/Documents/workspace_lua/BattlegroundTargets/BattlegroundTargets.toc",
+		"/C/Users/attackrabbit/Documents/workspace_lua/RezTrack/install.bat",
+		"/C/Users/attackrabbit/Documents/workspace_lua/RezTrack/install",
+		"/C/Users/attackrabbit/AppData/Roaming/Sublime Text 2/Packages/User/RezTrack.sublime-build",
+		"/C/Users/attackrabbit/Documents/workspace_aptana/blitgin-js/brew.cmd",
+		"/C/Users/attackrabbit/Documents/workspace_aptana/blitgin-js/blitbuild.cmd",
+		"/C/Users/attackrabbit/Documents/workspace_lua/RezTrack/RezTrack-project.sublime-build",
+		"/C/Users/attackrabbit/Documents/workspace_lua/RezTrack/RezTrack/src/RezTrack.lua",
+		"/C/Users/attackrabbit/Documents/workspace_lua/RezTrack/RezTrack/src/RezTrack.toc"
+	],
+	"find":
+	{
+		"height": 41.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"",
+			"C:\\Users\\Public\\World of Warcraft\\Interface\\AddOns"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			";",
+			"\\\\",
+			"file_2",
+			"file_1",
+			"build",
+			"root",
+			"_",
+			"'",
+			"initialize",
+			"render",
+			"this",
+			":()->\n",
+			"script",
+			"GetRegions()",
+			"local _, _, _, playerName = frame:GetRegions()",
+			"getName",
+			"IciclePlates:print",
+			"print",
+			"Print",
+			"addIcons",
+			"print",
+			"Print",
+			"getNameplates",
+			"plateCache",
+			"GetRegions",
+			"Rectangle",
+			"->",
+			"CreateFontString",
+			"CreatePetButton",
+			"CreatePetUnitFrames",
+			"CreatePetTeamNames",
+			"CreatePetUnitFrames",
+			"CreateParentFrame",
+			"CreatePetUnitFrames",
+			"CreatePetButton",
+			"table",
+			"GetFrameInfo",
+			"GetMaxRows",
+			"nMembersData",
+			"or i=1",
+			"sortfunc13",
+			"table_sort",
+			"sort",
+			"reCheckScore",
+			"BattlefieldScoreUpdate",
+			"SetBattlefieldScoreFaction",
+			"CheckIfPlayerIsGhost",
+			"scoreUpdateBuffer",
+			"RequestBattlefieldScoreData",
+			"BattlefieldScoreRequest",
+			"reCheckBG",
+			"BattlefieldCheck",
+			"inCombat",
+			"GetNumBattlefieldScores",
+			"neato",
+			"20",
+			"SendAddonMessage",
+			".n",
+			"length",
+			"BattlegroundTargets_Options.pos",
+			"BattlegroundTargets_Options",
+			"SetPoint",
+			"RezTrack_Settings"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"outputFile",
+			"inputFile",
+			"input"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "sample/sample_one.js",
+					"settings":
+					{
+						"buffer_size": 6236,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5665,
+								5665
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 912.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "sample/sample_two.js",
+					"settings":
+					{
+						"buffer_size": 117,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								113,
+								113
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/garble.py",
+					"settings":
+					{
+						"buffer_size": 6091,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4989,
+								4990
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "sample/garbled/sample_two.js",
+					"settings":
+					{
+						"buffer_size": 1716,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1716,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"settings":
+					{
+						"buffer_size": 88,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								88,
+								88
+							]
+						],
+						"settings":
+						{
+							"auto_name": "\"var usersList=[];var keysList=[];var userIndex=0;",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 219.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"imageser",
+				"src/coffee/ImageServer.coffee"
+			],
+			[
+				"imag",
+				"node/ImageServer.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 247.0,
+	"status_bar_visible": true
+}
