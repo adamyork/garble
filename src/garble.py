@@ -1,4 +1,5 @@
 import sys
+from slimit import minify
 
 if len(sys.argv) < 2:
     print "please specify an input and output"
@@ -6,9 +7,6 @@ if len(sys.argv) < 2:
 inputPath = sys.argv[1]
 outputPath = sys.argv[2]
 
-#keywords
-var = '("\\x76"+((!!+[]+"")[+!![]])+((!+[]+"")[+!![]]))'
-function = '(((!!+[]+"")[+[]])+((!+[]+"")[(+!![])+(+!![])])+((+!![]/+[]+"")[+!![]])+((({})+"")[(+!![])+(+!![])+(+!![])+(+!![])+(+!![])])+((!+[]+"")[+[]])+((+!![]/+[]+"")[(+!![])+(+!![])+(+!![])])+((({})+"")[+!![]])+((+!![]/+[]+"")[+!![]]))'
 #letters / numbers
 symbols={
     'a':'((!!+[]+"")[+!![]])',
@@ -88,7 +86,13 @@ symbols={
     "+":"'+'",
     "-":"'-'",
     "%":"'%'",
-    "\\":"'\\'",
+    " ":"' '",
+    "?":"'?'",
+    "|":"'|'",
+    "^":"'^'",
+    "&":"'&'",
+    "~":"'~'",
+    "\\":"'\\\\'",
     "0":"(+[])",
     "1":"(+!![])",
     "2":"((+!![])+(+!![]))",
@@ -101,88 +105,18 @@ symbols={
     "9":"((+!![])+(+!![])+(+!![])+(+!![])+(+!![])+(+!![])+(+!![])+(+!![])+(+!![]))"
 }
 
-inputFile = open(inputPath, 'r+')
-lines = inputFile.readlines()
-sentences = []
-currSentence = 0
-for line in lines:
-    if line:
-        if line[0] != "\n":
-            sentences.append(line)
-inputFile.close()
+fileContents = open(inputPath, 'r').read()
+minified = minify(fileContents, mangle=False, mangle_toplevel=False)
+transformed=[]
 outputFile = open(outputPath, 'w+')
 outputFile.write("eval(")
-if len(sentences) > 0:
-    for sentence in sentences:
-        skip = "false"
-        for i in range(len(sentence)):
-            if sentence[i] == "/":
-                if sentence[i+1] == "/":
-                    sentence = sentence[0:i]
-                    whitespaceTest = sentence.strip()
-                    if len(whitespaceTest) <= 1:
-                        skip = "true"
-                    break
-        currSentence+=1
-        if skip == "true":
-            continue
-        words = sentence.split(" ")
-        transformedWords = []
-        for word in words:
-            if word == "\n" or word == "\t" or word == " ":
-                continue
-            if word == "function":
-                transformedWords.append(function)
-            elif word == "var":
-                transformedWords.append(var)
-            elif word == "++":
-                transformedWords.append("'++'")
-            elif word == "===":
-                transformedWords.append("'==='")
-            elif word == "==":
-                transformedWords.append("'=='")
-            elif word == "=":
-                transformedWords.append("'='")
-            elif word == ">>":
-                transformedWords.append("'>>'")
-            elif word == ">":
-                transformedWords.append("'>'")
-            elif word == "<<":
-                transformedWords.append("'<<'")
-            elif word == "<":
-                transformedWords.append("'<'")
-            elif word == "!==":
-                transformedWords.append("'!=='")
-            elif word == "!=":
-                transformedWords.append("'!='")
-            else:
-                transformed = ""
-                for i in range(len(word)):
-                    if word[i] == "\t":
-                        continue
-                    if word[i] == "\n":
-                        if word[i-1] == "]" or word[i-1] == ")" or word[i-1] == "}":
-                            transformed+= "';'+"
-                        continue                 
-                    if i == len(word)-1:
-                        transformed += (symbols[word[i]])
-                    elif i == 0 and len(words) > 1:
-                        transformed += (symbols[word[i]])+"+"
-                    else:
-                        transformed += (symbols[word[i]])+"+"
-                transformedWords.append(transformed)
-        for i in range(len(transformedWords)):
-            if transformedWords[i] == "":
-                transformedWords[i] = "' '"
-            if i == 0 and len(words) > 1:
-                transformedWords[i] += "+"+"' '"+"+"
-            elif i == len(transformedWords)-1:
-                transformedWords[i] = transformedWords[i]
-            else:
-                transformedWords[i] = transformedWords[i]+"+' '+"
-        str = "".join(transformedWords)
-        if str[len(str)-1] == "+" and currSentence == len(sentences):
-            str = str[0:-1]
-        outputFile.write(str)
+for i in range(len(minified)):
+    if i == 0:
+        transformed.append(symbols[minified[i]]+"+")
+    elif i == len(minified)-1:
+        transformed.append(symbols[minified[i]])
+    else:
+        transformed.append(symbols[minified[i]]+"+")
+outputFile.write("".join(transformed))
 outputFile.write(")")
 outputFile.close()
