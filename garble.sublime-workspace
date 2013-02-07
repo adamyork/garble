@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"m",
+				"minified"
+			],
+			[
+				"outputFi",
+				"outputFile"
+			],
+			[
+				"se",
+				"sentences"
+			],
+			[
 				"input",
 				"inputPath"
 			],
@@ -140,59 +152,71 @@
 	"buffers":
 	[
 		{
-			"file": "sample/sample_one.js",
-			"settings":
-			{
-				"buffer_size": 6236,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "sample/sample_two.js",
-			"settings":
-			{
-				"buffer_size": 117,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "src/garble.py",
 			"settings":
 			{
-				"buffer_size": 6091,
+				"buffer_size": 3166,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "(\"\\x76\"+((!!+[]+\"\")[+!![]])+((!+[]+\"\")[+!![]]))+' '+((!+[]+\"\")[(+!![])+(+!![])])+((!!+[]+\"\")[(+!![])+(+!![])+(+!![])])+((!!+[]+\"\")[(+!![])+(+!![])+(+!![])+(+!![])])+((!+[]+\"\")[+!![]])+((!!+[]+\"\")[(+!![])+(+!![])+(+!![])])+\"\\x4C\"+((+!![]/+[]+\"\")[(+!![])+(+!![])+(+!![])])+((!!+[]+\"\")[(+!![])+(+!![])+(+!![])])+((!+[]+\"\")[+[]])+'='+'['+']'+';'+(\"\\x76\"+((!!+[]+\"\")[+!![]])+((!+[]+\"\")[+!![]]))+' '+\"\\x6B\"+((!!+[]+\"\")[(+!![])+(+!![])+(+!![])+(+!![])])+((+!![]/+[]+\"\")[(+!![])+(+!![])+(+!![])+(+!![])+(+!![])+(+!![])+(+!![])])+((!!+[]+\"\")[(+!![])+(+!![])+(+!![])])+\"\\x4C\"+((+!![]/+[]+\"\")[(+!![])+(+!![])+(+!![])])+((!!+[]+\"\")[(+!![])+(+!![])+(+!![])])+((!+[]+\"\")[+[]])+'='+'['+']'+';'+(\"\\x76\"+((!!+[]+\"\")[+!![]])+((!+[]+\"\")[+!![]]))+' '+((!+[]+\"\")[(+!![])+(+!![])])+((!!+[]+\"\")[(+!![])+(+!![])+(+!![])])+((!!+[]+\"\")[(+!![])+(+!![])+(+!![])+(+!![])])+((!+[]+\"\")[+!![]])+((+!![]/+[]+\"\")[+[]])+((+!![]/+[]+\"\")[+!![]])+((({})[\"\"]+\"\")[(+!![])+(+!![])])+((!!+[]+\"\")[(+!![])+(+!![])+(+!![])+(+!![])])+'x'+'='+(+[])+';'+(\"\\x76\"+((!!+[]+\"\")[+!![]])+((!+[]+\"\")[+!![]]))+' '+\"\\x70\"+\"\\x77\"+((+!![]/+[]+\"\")[+[]])+((+!![]/+[]+\"\")[+!![]])+((({})[\"\"]+\"\")[(+!![])+(+!![])])+((!!+[]+\"\")[(+!![])+(+!![])+(+!![])+(+!![])])+'x'+'='+(+[])+';'+(((!!+[]+\"\")[+[]])+((!+[]+\"\")[(+!![])+(+!![])])+((+!![]/+[]+\"\")[+!![]])+((({})+\"\")[(+!![])+(+!![])+(+!![])+(+!![])+(+!![])])+((!+[]+\"\")[+[]])+((+!![]/+[]+\"\")[(+!![])+(+!![])+(+!![])])+((({})+\"\")[+!![]])+((+!![]/+[]+\"\")[+!![]]))+' '+((!!+[]+\"\")[(+!![])+(+!![])])+((({})+\"\")[+!![]])+((!!+[]+\"\")[+!![]])+((({})[\"\"]+\"\")[(+!![])+(+!![])])+\"\\x55\"+((!!+[]+\"\")[(+!![])+(+!![])+(+!![])])+((!!+[]+\"\")[(+!![])+(+!![])+(+!![])+(+!![])])+((!+[]+\"\")[+!![]])+((!!+[]+\"\")[(+!![])+(+!![])+(+!![])])+'('+')'+';'+'{'+'}'",
-			"file": "sample/garbled/sample_two.js",
-			"file_size": 1722,
-			"file_write_time": 130045976042117112,
+			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 1716,
+				"buffer_size": 412,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "\"var usersList=[];var keysList=[];var userIndex=0;var pwIndex=0;function loadUsers();{}\"",
+			"file": "README.md",
 			"settings":
 			{
-				"buffer_size": 88,
-				"line_ending": "Windows",
-				"name": "\"var usersList=[];var keysList=[];var userIndex=0;"
+				"buffer_size": 589,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/attackrabbit/Documents/workspace_aptana/blitgin-js/README.md",
+			"settings":
+			{
+				"buffer_size": 1800,
+				"line_ending": "Windows"
 			}
 		}
 	],
 	"build_system": "Packages/Python/Python.sublime-build",
 	"command_palette":
 	{
-		"height": 81.0,
+		"height": 127.0,
 		"selected_items":
 		[
 			[
 				"form",
 				"Format: Javascript"
+			],
+			[
+				"fo",
+				"Format: Javascript"
+			],
+			[
+				"for",
+				"Format: Javascript"
+			],
+			[
+				"set syntax jav",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"format",
+				"Format: Javascript"
+			],
+			[
+				"set syntax java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"set",
+				"Set Syntax: JSON"
 			],
 			[
 				"set syntax: java",
@@ -203,10 +227,6 @@
 				"Set Syntax: Python"
 			],
 			[
-				"for",
-				"Format: Javascript"
-			],
-			[
 				"set syntax: jav",
 				"Set Syntax: JavaScript"
 			],
@@ -215,15 +235,7 @@
 				"Package Control: Install Package"
 			],
 			[
-				"set",
-				"Set Syntax: JSON"
-			],
-			[
 				"f",
-				"Format: Javascript"
-			],
-			[
-				"fo",
 				"Format: Javascript"
 			],
 			[
@@ -260,7 +272,12 @@
 	},
 	"file_history":
 	[
+		"/C/Users/attackrabbit/AppData/Roaming/Sublime Text 2/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
+		"/C/Users/attackrabbit/Documents/workspace_aptana/garble/sample/sample_two.js",
+		"/C/Users/attackrabbit/Documents/workspace_aptana/garble/sample/garbled/sample_two.js",
 		"/C/Users/attackrabbit/Documents/workspace_aptana/BruteForce/js/main.js",
+		"/C/Users/attackrabbit/Documents/workspace_aptana/garble/sample/sample_one.js",
+		"/C/Users/attackrabbit/Documents/workspace_aptana/garble/sample/garbled/sample_one.js",
 		"/C/Users/attackrabbit/Documents/workspace_aptana/lime/src/covernode.js",
 		"/C/Users/attackrabbit/Documents/workspace_aptana/lime/src/useragent.js",
 		"/C/Users/attackrabbit/Documents/workspace_aptana/garble/sample/garbled/sample.js",
@@ -378,7 +395,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 93.0,
+		"height": 0.0,
 		"where_history":
 		[
 			"",
@@ -390,6 +407,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"\\",
 			";",
 			"\\\\",
 			"file_2",
@@ -478,72 +496,18 @@
 			[
 				{
 					"buffer": 0,
-					"file": "sample/sample_one.js",
-					"settings":
-					{
-						"buffer_size": 6236,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5665,
-								5665
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 912.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "sample/sample_two.js",
-					"settings":
-					{
-						"buffer_size": 117,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								113,
-								113
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "src/garble.py",
 					"settings":
 					{
-						"buffer_size": 6091,
+						"buffer_size": 3166,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4989,
-								4990
+								3086,
+								3086
 							]
 						],
 						"settings":
@@ -560,25 +524,27 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "sample/garbled/sample_two.js",
+					"buffer": 1,
+					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 1716,
+						"buffer_size": 412,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1716,
-								0
+								368,
+								368
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"word_wrap": true
+							"auto_name": "",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -587,24 +553,52 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 2,
+					"file": "README.md",
 					"settings":
 					{
-						"buffer_size": 88,
+						"buffer_size": 589,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								88,
-								88
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"auto_name": "\"var usersList=[];var keysList=[];var userIndex=0;",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/attackrabbit/Documents/workspace_aptana/blitgin-js/README.md",
+					"settings":
+					{
+						"buffer_size": 1800,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								528,
+								528
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
