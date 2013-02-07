@@ -11,7 +11,7 @@ _**garble** is a python tool that takes javascript obfuscation to the extreme._
 1. install python 2.7
 2. install slimit
 
-###Invoke garble.py with and input and desired output
+###Invoke garble.py with an input and desired output
 ```
 python garbly.py "PATH_TO_INPUT/INPUT_FILE.js" "PATH_TO_OUTPUT/OUTPUT_FILE.js"
 ```
