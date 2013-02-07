@@ -1,19 +1,21 @@
-garble is a python tool that takes javascript obfuscation to the extreme.
+_**garble** is a python tool that takes javascript obfuscation to the extreme._
 
-Why should i use garble ?
+##Why should i use garble ?
 - You want to double , even tripple the file size of your javascript.
 - You want deployed code to become unreadable and impossible to debug.
 
-How to use.
+##How to use.
 
-garble depends on python 2.7 and slimit
+###_**garble**_ depends on python 2.7 and slimit.
 
-install python 2.7
-install slimit
+1. install python 2.7
+2. install slimit
 
-invoke garble.py with and input and desired output
-- python garbly.py "PATH_TO_JS/FILE.js" "PATH_TO_OUTPUT/OUTPUT_FILE_NAME.js"
+###Invoke garble.py with and input and desired output
+```
+python garbly.py "PATH_TO_INPUT/INPUT_FILE.js" "PATH_TO_OUTPUT/OUTPUT_FILE.js"
+```
 
 enjoy success.
 
-See the sample director for some common examples of garbled libraries.
+See the 'sample' directory for some common examples of garbled libraries.
