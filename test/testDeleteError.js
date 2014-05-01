@@ -1,8 +1,9 @@
-//testDeleteError.js
+window.app = {};
 
-var app = {};
+app.delete = function( req, res ) {
 
-app[ "delete" ]( '*', function( req, res ) {
-    console.log( "req " + req );
-    console.log( "res " + res );
+};
+
+app.delete( '*', function( req, res ) {
+
 } );
