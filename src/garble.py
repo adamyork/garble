@@ -1,12 +1,16 @@
+# This Python file uses the following encoding: utf-8
+
 import sys
-import re
+import gzip
 from slimit import minify
 
-if len(sys.argv) < 2:
-    print "please specify an input and output"
+
+if len(sys.argv) < 3:
+    print "please specify an input and output and if you would like to use compression."
     quit()
 inputPath = sys.argv[1]
 outputPath = sys.argv[2]
+compress = sys.argv[3]
 
 #letters / numbers
 symbols={
@@ -93,6 +97,7 @@ symbols={
     "^":"'^'",
     "&":"'&'",
     "~":"'~'",
+    "Ü":'u"\u00FC"',
     "\\":"'\\\\'",
     "0":"(+[])",
     "1":"(+!![])",
@@ -126,3 +131,10 @@ for i in range(len(minified)):
 outputFile.write("".join(transformed))
 outputFile.write(")()")
 outputFile.close()
+
+if compress.lower() == "yes":
+    f_in = open(outputPath, 'rb')
+    f_out = gzip.open(outputPath+".gz", 'wb')
+    f_out.writelines(f_in)
+    f_out.close()
+    f_in.close()
