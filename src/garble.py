@@ -1,8 +1,9 @@
-# This Python file uses the following encoding: utf-8
+# -*- coding: utf-8 -*-
 
 import sys
 import gzip
 from slimit import minify
+import unidecode
 
 
 if len(sys.argv) < 3:
@@ -97,7 +98,6 @@ symbols={
     "^":"'^'",
     "&":"'&'",
     "~":"'~'",
-    "Ü":'u"\u00FC"',
     "\\":"'\\\\'",
     "0":"(+[])",
     "1":"(+!![])",
@@ -113,11 +113,17 @@ symbols={
 
 fileContents = open(inputPath, 'r').read()
 
-replacedReserved = fileContents.replace(".deleteExpando",".replaceLaterExpando");
-replacedReserved = fileContents.replace(".delete","['delete']");
-replacedReserved = fileContents.replace(".replaceLaterExpando",".deleteExpando");
+fileContentsUnicoded = unicode(fileContents,'utf-8')
+fileContentsUnunicoded = unidecode.unidecode(fileContentsUnicoded)
+
+replacedReserved = fileContentsUnunicoded.replace(".deleteExpando",".replaceLaterExpando");
+replacedReserved = fileContentsUnunicoded.replace(".delete","['delete']");
+replacedReserved = fileContentsUnunicoded.replace(".replaceLaterExpando",".deleteExpando");
+
+print replacedReserved
 
 minified = minify(replacedReserved, mangle=False, mangle_toplevel=False)
+
 transformed=[]
 outputFile = open(outputPath, 'w+')
 outputFile.write("[][(![]+[])[+[]]+([![]]+[][[]])[+!+[]+[+[]]]+(![]+[])[!+[]+!+[]]+(!![]+[])[+[]]+(!![]+[])[!+[]+!+[]+!+[]]+(!![]+[])[+!+[]]][([][(![]+[])[+[]]+([![]]+[][[]])[+!+[]+[+[]]]+(![]+[])[!+[]+!+[]]+(!![]+[])[+[]]+(!![]+[])[!+[]+!+[]+!+[]]+(!![]+[])[+!+[]]]+[])[!+[]+!+[]+!+[]]+(!![]+[][(![]+[])[+[]]+([![]]+[][[]])[+!+[]+[+[]]]+(![]+[])[!+[]+!+[]]+(!![]+[])[+[]]+(!![]+[])[!+[]+!+[]+!+[]]+(!![]+[])[+!+[]]])[+!+[]+[+[]]]+([][[]]+[])[+!+[]]+(![]+[])[!+[]+!+[]+!+[]]+(!![]+[])[+[]]+(!![]+[])[+!+[]]+([][[]]+[])[+[]]+([][(![]+[])[+[]]+([![]]+[][[]])[+!+[]+[+[]]]+(![]+[])[!+[]+!+[]]+(!![]+[])[+[]]+(!![]+[])[!+[]+!+[]+!+[]]+(!![]+[])[+!+[]]]+[])[!+[]+!+[]+!+[]]+(!![]+[])[+[]]+(!![]+[][(![]+[])[+[]]+([![]]+[][[]])[+!+[]+[+[]]]+(![]+[])[!+[]+!+[]]+(!![]+[])[+[]]+(!![]+[])[!+[]+!+[]+!+[]]+(!![]+[])[+!+[]]])[+!+[]+[+[]]]+(!![]+[])[+!+[]]](")
