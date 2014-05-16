@@ -116,13 +116,11 @@ fileContents = open(inputPath, 'r').read()
 fileContentsUnicoded = unicode(fileContents,'utf-8')
 fileContentsUnunicoded = unidecode.unidecode(fileContentsUnicoded)
 
-replacedReserved = fileContentsUnunicoded.replace(".deleteExpando",".replaceLaterExpando");
-replacedReserved = fileContentsUnunicoded.replace(".delete","['delete']");
-replacedReserved = fileContentsUnunicoded.replace(".replaceLaterExpando",".deleteExpando");
+replacedReserved1 = fileContentsUnunicoded.replace(".deleteExpando",".replaceLaterExpando");
+replacedReserved2 = replacedReserved1.replace(".delete","['delete']");
+replacedReserved3 = replacedReserved2.replace(".replaceLaterExpando",".deleteExpando");
 
-print replacedReserved
-
-minified = minify(replacedReserved, mangle=False, mangle_toplevel=False)
+minified = minify(replacedReserved3, mangle=False, mangle_toplevel=False)
 
 transformed=[]
 outputFile = open(outputPath, 'w+')
