@@ -10,6 +10,7 @@ _**garble** is a python tool that takes javascript obfuscation to the extreme._
 
 1. install python 2.7
 2. install slimit
+3. install unidecode (This is helps standardize input from various encodings Latin-1,UTF-16,etc)
 
 #####Invoke garble.py with an input and desired output and specify wether or not you'd like to use compression.
 **NOTE** by gziping the garbled files you will need to configure your server to set the Content-Encoding response header, as well as write some additional ajax code that will need to be eval'd in the dom. Please reference the **server.js** file for a node.js example of how to do this , as well as the **js/main.js** file for the general ajax call.
