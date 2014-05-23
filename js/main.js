@@ -7,7 +7,9 @@ $( document ).ready( function() {
             'Accept-Encoding': 'gzip, deflate'
         },
         success: function( response ) {
-            eval( response );
+            //eval( response );
+            //or
+            Function( response )(); //prefered.
         },
         error: function( response ) {
             console.log( "error " + response );
