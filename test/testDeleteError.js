@@ -1,9 +1,7 @@
 window.app = {};
 
 app.delete = function( req, res ) {
-
+    console.log( "testDeleteError pass." );
 };
 
-app.delete( '*', function( req, res ) {
-
-} );
+app.delete( '*', function( req, res ) {} );

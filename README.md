@@ -2,7 +2,7 @@ _**garble** is a python tool that takes javascript obfuscation to the extreme._
 
 ###Why should I use garble ?
 - You want to double , even tripple the file size of your javascript.(optional)
-- You want deployed code to become unreadable and impossible to debug.
+- You want deployed code to become unreadable and extraordinarily difficult to debug.
 
 ##How to use.
 

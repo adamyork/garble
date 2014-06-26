@@ -1,5 +1,5 @@
 var specialCharTestü = function() {
-    console.log( "hiya" );
+    console.log( "testUmlautParse pass" );
 };
 
 specialCharTestü();

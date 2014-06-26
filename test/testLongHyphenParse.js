@@ -1,5 +1,6 @@
 var specialCharTest = function() {
-    console.log( "hiya—" );
+    var test = "—something";
+    console.log( "testLongHyphenParse pass" );
 };
 
 specialCharTest();

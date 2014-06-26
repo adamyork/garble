@@ -119,12 +119,14 @@ fileContentsUnunicoded = unidecode.unidecode(fileContentsUnicoded)
 replacedReserved1 = fileContentsUnunicoded.replace(".deleteExpando",".replaceLaterExpando");
 replacedReserved2 = replacedReserved1.replace(".delete","['delete']");
 replacedReserved3 = replacedReserved2.replace(".replaceLaterExpando",".deleteExpando");
+replacedReserved4 = replacedReserved3.replace(".catch","['catch']");
 
-minified = minify(replacedReserved3, mangle=False, mangle_toplevel=False)
+minified = minify(replacedReserved4, mangle=False, mangle_toplevel=False)
 
 transformed=[]
 outputFile = open(outputPath, 'w+')
 outputFile.write("[][(![]+[])[+[]]+([![]]+[][[]])[+!+[]+[+[]]]+(![]+[])[!+[]+!+[]]+(!![]+[])[+[]]+(!![]+[])[!+[]+!+[]+!+[]]+(!![]+[])[+!+[]]][([][(![]+[])[+[]]+([![]]+[][[]])[+!+[]+[+[]]]+(![]+[])[!+[]+!+[]]+(!![]+[])[+[]]+(!![]+[])[!+[]+!+[]+!+[]]+(!![]+[])[+!+[]]]+[])[!+[]+!+[]+!+[]]+(!![]+[][(![]+[])[+[]]+([![]]+[][[]])[+!+[]+[+[]]]+(![]+[])[!+[]+!+[]]+(!![]+[])[+[]]+(!![]+[])[!+[]+!+[]+!+[]]+(!![]+[])[+!+[]]])[+!+[]+[+[]]]+([][[]]+[])[+!+[]]+(![]+[])[!+[]+!+[]+!+[]]+(!![]+[])[+[]]+(!![]+[])[+!+[]]+([][[]]+[])[+[]]+([][(![]+[])[+[]]+([![]]+[][[]])[+!+[]+[+[]]]+(![]+[])[!+[]+!+[]]+(!![]+[])[+[]]+(!![]+[])[!+[]+!+[]+!+[]]+(!![]+[])[+!+[]]]+[])[!+[]+!+[]+!+[]]+(!![]+[])[+[]]+(!![]+[][(![]+[])[+[]]+([![]]+[][[]])[+!+[]+[+[]]]+(![]+[])[!+[]+!+[]]+(!![]+[])[+[]]+(!![]+[])[!+[]+!+[]+!+[]]+(!![]+[])[+!+[]]])[+!+[]+[+[]]]+(!![]+[])[+!+[]]](")
+# []["filter"]["constructor"]
 for i in range(len(minified)):
     if i == 0:
         transformed.append(symbols[minified[i]]+"+")
