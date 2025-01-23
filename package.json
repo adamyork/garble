@@ -1,0 +1,25 @@
+{
+  "name": "garble",
+  "version": "2.0.0",
+  "description": "_**garble** is a node.js tool that takes javascript obfuscation to the extreme._",
+  "author": "",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "engines" : { 
+    "npm" : ">=9.5.1",
+    "node" : ">=22.13.0"
+  },
+  "dependencies": {
+    "js-beautify": "1.15.1",
+    "jsmin": "1.0.1",
+    "strip-comments": "2.0.1",
+    "zlib": "1.0.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.7",
+    "typescript": "5.7.3"
+  }
+}
