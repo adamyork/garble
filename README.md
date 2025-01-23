@@ -24,12 +24,14 @@ TBD
 1. install node (version 22.13.0 or higher)
 2. git clone repo
 3. npm run build
-4. include the `garble.js` in your project
+4. npm link
+5. cd into your own project directory
+6. npm link garble
 
 #### Using in code
 
 ````javascript
-const garble = require('../dist/index.js');
+const garble = require('garble');
 garble.garble('helloWorld.js', 'helloWorldGarbled.js', false, console.log);
 ````
 *hellworld.js*
